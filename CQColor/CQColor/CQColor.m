@@ -9,19 +9,6 @@
 #import "CQColor.h"
 
 @implementation CQColor
-
-+ (void)setFitWhiteColor:(UIColor *)fitWhiteColor{
-    fitWhiteColor = [CQColor fitWhiteColor];
-}
-
-+ (void)setFitBlackColor:(UIColor *)fitBlackColor{
-    fitBlackColor = [CQColor fitBlackColor];
-}
-
-+ (void)setFitGrayColor:(UIColor *)fitGrayColor{
-    fitGrayColor = [CQColor fitGrayColor];
-}
-
 + (UIColor *)fitWhiteColor{
     return [CQColor fitColorWithLightColor:[UIColor whiteColor] darkColor:[UIColor blackColor]];
 }

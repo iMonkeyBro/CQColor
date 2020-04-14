@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CQColor : UIColor
 
-@property (nonatomic, strong, class) UIColor *fitWhiteColor;  ///< 适配白色
-@property (nonatomic, strong, class) UIColor *fitBlackColor;  ///< 适配黑色
-@property (nonatomic, strong, class) UIColor *fitGrayColor;  ///< 适配灰色
+@property (nonatomic, strong, class, readonly) UIColor *fitWhiteColor;  ///< 适配白色
+@property (nonatomic, strong, class, readonly) UIColor *fitBlackColor;  ///< 适配黑色
+@property (nonatomic, strong, class, readonly) UIColor *fitGrayColor;  ///< 适配灰色
 
 + (UIColor *)fitWhiteColor;
 
